@@ -2,6 +2,13 @@
 tempest-docker
 ==============
 
+.. image::
+    https://img.shields.io/docker/build/masayukig/tempest.svg
+    :target: https://hub.docker.com/r/masayukig/tempest/builds/
+.. image::
+    https://img.shields.io/docker/automated/masayukig/tempest.svg
+    :target: https://hub.docker.com/r/masayukig/tempest/
+
 Quick Start
 -----------
 
