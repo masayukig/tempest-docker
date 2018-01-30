@@ -18,4 +18,4 @@ RUN pip3 install -e .
 WORKDIR /tempest_env
 RUN tempest init
 
-CMD ["tempest", "run", "-l"]
+CMD ["bash", "-c", "find . -name '.*' -exec rm -rf {} \; tempest init && tempest run -l"]
