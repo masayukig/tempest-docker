@@ -2,6 +2,7 @@ FROM alpine:latest
 
 RUN apk --update --no-cache add \
      git \
+     bash \
      python3 \
      gcc \
      make \
