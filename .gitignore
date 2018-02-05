@@ -1,3 +1,4 @@
 *.log
 *.img
 .testrepository/
+/tempest_env/workspaces
